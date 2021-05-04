@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
+    <meta name="description"
+        content="Website der Kindergruppe Kuli für Kleinkinder von 3 Monaten bis 4 Jahren in Vorarlberg Dornbirn. Fokus liegt auf Natur und Umwelt.">
+    <meta name="keywords"
+        content="Kind, Kleinkind, Toddler, Kinder, Kleinkinder, Kindergruppe, Kinderbetreuung, Kind betreuen, Kindergruppen, Kleinkindbetreuung, Kinder betreuen, Kind betreuung, Kindergarten, Kindergruppenbetreuung, Kleinkindergruppen, Kleinkind Gruppe betreuen, Dornbirn Kindergruppe, Vorarlberg Kind Betreuung Gruppe">
+    <meta name="author" content="Valentin Hämmerle">
+    <link rel="shortcut icon" type="image/x-icon" href="/Supplies/Favicon.png">
+    <link rel="stylesheet" href="/public/faq.css">
+    <script src=”https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js”></script>
+
+
+
+
+
+
+
+    <title>Kindergruppe Kuli Dornbirn - Fragen und Antworten</title>
+
+
+</head>
+
+
+<body class="min-w-full p-0 m-0 overflow-x-hidden text-gray-700 font-mali">
+    <div class="flex flex-col gesamtwrapper">
+
+
+
+        <div
+            class="fixed z-50 w-screen h-full text-2xl font-bold text-center -mt-96 md:opacity-0 lg:opacity-0 xl:opacity-0 submenu">
+            <ul class="flex flex-col w-11/12 mx-auto bg-white rounded-b-xl h-96 leading-12 subsubmenu">
+                <li id="topdownnav" class="inline-block mt-8"><a href="/public/index.html"
+                        class="block px-24 tracking-widest text-kuliorange">HOME</a></li>
+                <li id="topdownnav" class="inline-block mt-6"><a href="/public/ueberuns.html"
+                        class="block px-24 tracking-widest text-kuliorange">ÜBER UNS</a></li>
+                <li id="topdownnav" class="inline-block mt-6"><a href="/public/tagesablauf.html"
+                        class="block px-12 tracking-widest text-kuliorange">TAGESABLAUF</a></li>
+                <li id="topdownnav" class="inline-block mt-6"><a href="/public/preise.html"
+                        class="block px-24 tracking-widest text-kuliorange">PREISE</a></li>
+                <li id="topdownnav" class="inline-block mt-6"><a href="/public/faq.html"
+                        class="block px-24 tracking-widest text-kuliorange">FAQ</a></li>
+                <li id="topdownnav" class="inline-block mt-6"><a href="/public/kontakt.html"
+                        class="block px-24 tracking-widest text-kuliorange">KONTAKT</a></li>
+            </ul>
+        </div>
+
+        <!-- hinauf-pfeil-->
+
+
+        <div id="arrowup" class="fixed bottom-0 right-0 z-40 w-8 mb-16 mr-12">
+            <a href="#headerwrapper">
+                <button onclick="topFunction()" id="myBtn"
+                    title="Pfeil zum Draufklicken um wieder ganz nach oben zu gelangen">
+                    <img src="/Supplies/up-arrow.svg" alt="pfeil um wieder ganz nach oben zu kommen" class="fixed w-8">
+                </button>
+            </a>
+        </div>
+
+
+        <!-- Link zur richtigen Seite! -->
+        <!-- Schatten bei den Profil-->
+        <!-- fadeIn bei Chefin-->
+
+
+
+
+        <!-- HEADER-->
+
+        <div class="z-50 headerwrapper">
+
+            <nav id="navwrapper"
+                class="fixed z-20 flex justify-between h-24 min-w-full bg-white border-b-2 border-black border-solid sm:w-screen">
+                <a href="#home"><img src="/Supplies/Logo_white.png" alt="Logo" class="absolute w-24 mt-2 ml-10"></a>
+
+                <div class="nav">
+                    <div
+                        class="absolute right-0 z-50 mt-6 transition-all duration-100 ease-in-out cursor-pointer burger sm:cursor-pointer mr-72 sm:absolute sm:right-0 sm:mr-52 lg:opacity-0 xl:opacity-0 md:opacity-0">
+                        <div id="burger1ueu"
+                            class="w-12 h-1 mt-2 transition-all duration-200 ease-in-out rounded-full burger1 bg-kuligrün sm:w-14">
+                        </div>
+                        <div id="burger2ueu"
+                            class="burger2 transition-all duration-200 ease-in-out w-12 h-1 bg-kuligrün rounded-full mt-2 sm:w-14">
+                        </div>
+                        <div id="burger3ueu"
+                            class="burger3 transition-all duration-200 ease-in-out w-12 h-1 bg-kuligrün rounded-full mt-2 sm:w-14">
+                        </div>
+                    </div>
+                </div>
+
+                <ul id="naviquer"
+                    class="flex mr-24 text-lg font-extrabold opacity-0 md:flex lg:flex md:mr-8 lg:mr-20 md:text-base lg:text-xl xl:text-xl md:font-bold lg:font-extrabold mt-9 space-evenly sm:opacity-0 md:opacity-100 lg:opacity-100 xl:opacity-100 ">
+                    <a href="/public/index.html" class="ml-8 lg:ml-12 navibtns">
+                        HOME
+                    </a>
+                    <a href="/public/ueberuns.html" class="ml-8 lg:ml-12 navibtns">
+                        ÜBER UNS
+                    </a>
+                    <a href="/public/tagesablauf.html" class="ml-8 lg:ml-12 navibtns">
+                        TAGESABLAUF
+                    </a> <a href="/public/preise.html" class="ml-8 lg:ml-12 navibtns">
+                        PREISE
+                    </a>
+                    <a href="/public/faq.html" class="ml-8 lg:ml-12 navibtns active:text-kuligrün current">
+                        FAQ
+                    </a>
+                    <a href="/public/kontakt.html" class="ml-8 lg:ml-12 navibtns">
+                        KONTAKT
+                    </a>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- HERO -->
+
+        <div class="flex flex-col herowrapper ">
+            <img src="/Supplies/Faultier Kuli.png" alt="Faultier"
+                class="fixed absolute z-40 z-50 opacity-0 mt-14 ml-52 lg:opacity-100 xl:opacity-100">
+            <img src="/Supplies/hintergrund.png" alt="hintergrund grün gezackt" class="w-full h-screen opacity-95">
+            <img src="/Supplies/Tropical.png" alt="bäume" class="absolute bottom-0 right-0 w-1/4 ">
+            <div id="kindergruppekuli"
+                class="absolute flex flex-col justify-center min-w-full mt-56 text-5xl text-center text-white md:flex-shrink-0 md:flex-row md:tracking-wider space-between lg:flex lg:flex-row lg:mt-72 lg:text-6xl">
+                <div class="font-semibold">KINDERGRUPPE</div>
+                <div class="mt-4 font-semibold md:mt-0 lg:mt-0 lg:ml-10">KULI</div>
+            </div></br>
+            <span id="natur"
+                class="absolute bottom-0 min-w-full text-2xl font-normal text-center uppercase text-kuligelb mb-80 md:mb-96 lg:mb-75 xl:text-3xl xl:mb-80">
+                Draußen in der
+                Natur</span>
+            <div class="flex justify-center min-w-full space-between"><button id="preisebutton"
+                    class="absolute bottom-0 w-56 p-3 mb-40 text-2xl font-extrabold text-white uppercase rounded-full lg:mb-40 lg:w-60 lg:py-4 md:mb-48 md:font-bold bg-kuliorange"><a
+                        a href="#preiseID">FAQ</button></a></div>
+            <div class="flex justify-center min-w-full space-between"><img src="/Supplies/pfeil.png" alt="pfeil"
+                    class="absolute bottom-0 mt-3 mb-24 ml-1 w-7 animate-bounce">
+            </div>
+        </div>
+
+
+        <!-- FAQ-->
+        <div class="flex flex-col w-screen fragenWrapper bg-kuligrau">
+            <div class="absolute bottom-0 mb-20" id="preiseID"></div>
+            <div class="relative -mt-6"></div>
+            <img src="/Supplies/hintergrund_gray.png" alt="hintergrund" class="w-screen h-20">
+            <!-- Titel FAQ-->
+            <div
+                class="relative flex justify-center min-w-full text-3xl font-bold text-center uppercase bg-kuligrau sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl xl:tracking-widest xl:font-bold lg:font-semibold space-between">
+                FRAGEN & ANTWORTEN </div>
+
+
+            <!-- alle 12 Fragen-->
+            <div class="flex flex-col w-screen">
+                <div class="flex flex-col w-screen bg-kuligrau">
+
+                    <!--6-Fragen-Spalte 1-->
+                    <div class="lg:flex lg:flex-row lg:w-screen">
+                        <div class="lg:flex lg:flex-col lg:w-1/2 lg:mx-auto">
+
+                        <!-- Frage 1 -->
+                        <div class="flex flex-col items-start w-11/12 mx-auto ml-8 sm:w-3/4 sm:ml-24 dc1 bg-kuligrau md:ml-32 lg:ml-24">
+                            <div class="relative flex justify-between w-full mt-20 ">
+                                <div class="w-4/5 mt-1 text-xl font-bold">Wie melde ich mein krankes Kind ab?</div>
+                                <div
+                                    class="w-8 h-8 transform rotate-45 rounded-full cursor-pointer mr-7 bg-kuliorange gesamtCross1">
+                                    <div
+                                        class="absolute p-0.5 mt-3.5 ml-1.5 transform rotate-45 bg-white rounded-full w-5 cross1">
+                                    </div>
+                                    <div
+                                        class="absolute p-0.5 mt-3.5 ml-1.5 transform -rotate-45 bg-white rounded-full w-5">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex w-11/12 h-0 mt-5 overflow-hidden leading-7 transition-all duration-700 ease-in-out dct1">
+                                Ist Ihr Kind krank zu Hause und kann die Kindergruppe Kuli
+                                nicht besuchen, so melden Sie dies bitte während unserer Öffnungszeiten am besten
+                                telefonisch auf die normale
+                                Kindergruppen-Nummer.
+                            </div>
+                            <hr width="94%" class="mt-8 mr-2 border border-gray-300 ">
+                        </div>
+                        <!-- Frage 1 Ende-->
+
+                        <!-- Frage 2 -->
+                        <div class="flex flex-col items-start w-11/12 mx-auto ml-8 dc2 bg-kuligrau sm:w-3/4 sm:ml-24 md:ml-32 lg:ml-24">
+                            <div class="relative flex justify-between w-full mt-20">
+                                <div class="w-4/5 mt-1 text-xl font-bold">Was ist wenn mein Kind in der Kindergruppe
+                                    krank wird?</div>
+                                <div
+                                    class="w-8 h-8 transform rotate-45 rounded-full cursor-pointer mr-7 bg-kuligelb gesamtCross2">
+                                    <div
+                                        class="absolute p-0.5 mt-3.5 ml-1.5 transform rotate-45 bg-white rounded-full w-5 cross2">
+                                    </div>
+                                    <div
+                                        class="absolute p-0.5 mt-3.5 ml-1.5 transform -rotate-45 bg-white rounded-full w-5">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="flex w-11/12 h-0 mt-5 overflow-hidden leading-7 transition-all duration-700 ease-in-out dct2">
+                                Wird Ihr Kind während der Betreuung in der Kindergruppe
+                                krank, so werden wir Sie auf Ihren angegebenen
+                                Kontaktdaten (telefonisch) darüber informieren. Wir bitten Sie dann, Ihr Kind umgehend
+                                nach Hause zu nehmen.
+                                Aus Rücksicht auf die weiteren Kinder können wir ein
+                                krankes Kind leider nicht betreuen.
+                            </div>
+                            <hr width="94%" class="mt-8 border border-gray-300">
+                        </div>
+                        <!-- Frage 2 Ende-->
+
+                        <!-- Frage 3 -->
+                            <div class="flex flex-col items-start w-11/12 mx-auto ml-8 dc3 bg-kuligrau sm:w-3/4 sm:ml-24 md:ml-32 lg:ml-24">
+                                <div class="relative flex justify-between w-full mt-20">
+                                    <div class="w-4/5 mt-1 text-xl font-bold">Was ist wenn mein Kind in der Kindergruppe
+                                        einen Unfall hat?</div>
+                                    <div
+                                        class="w-8 h-8 transform rotate-45 rounded-full mr-7 bg-kuligrün cursor-pointer gesamtCross3">
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform rotate-45 bg-white rounded-full w-5 cross3">
+                                        </div>
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform -rotate-45 bg-white rounded-full w-5">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex w-11/12 h-0 mt-5 overflow-hidden leading-7 transition-all duration-700 ease-in-out dct3">
+                                    Wir betreuen Ihr Kind während seines Aufenthaltes bei uns durch unser qualifiziertes
+                                    Personal. Gleichzeitig lassen wir den Kindern aber auch bewusst Freiheiten.
+                                    Bei einem kleinen Unfall haben wir in dem Sinne vorgesorgt, dass wir stets Personal
+                                    mit
+                                    einem absolvieren Erste-Hilfe Kurs vor Ort haben. Ebenfalls haben wir stets einen
+                                    Erste-Hilfe Kasten bei uns.
+                                    Die Eltern werden umgehend informiert und situativ gehen wir zum Arzt. Wir haben
+                                    ‚unseren‘ Kindergruppen-Arzt, mit dem wir jederzeit Rücksprache halten können.
+                                </div>
+                                <hr width="94%" class="mt-8 border border-gray-300">
+                            </div>
+                        <!-- Frage 3 Ende-->
+
+                        <!-- Frage 4 -->
+                        <div class="w-full bg-kuligrau">
+                            <div class="flex flex-col w-11/12 mx-auto ml-8 dc4 bg-kuligrau sm:w-3/4 sm:ml-24 md:ml-32 lg:ml-24">
+                                <div class="flex justify-between w-full mt-20">
+                                    <div class="w-4/5 mt-1 text-xl font-bold">Darf mein Kind persönliche Gegenstände in
+                                        die
+                                        Kindergruppe mitbringen?</div>
+                                    <div
+                                        class="w-8 h-8 transform rotate-45 rounded-full mr-7 cursor-pointer bg-kuligdunkelgrün gesamtCross4">
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform rotate-45 bg-white rounded-full w-5 cross4">
+                                        </div>
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform -rotate-45 bg-white rounded-full w-5">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex w-11/12 h-0 mt-5 overflow-hidden leading-7 transition-all duration-700 ease-in-out dct4">
+                                    Will Ihr Kind mal etwas Spezielles zeigen oder in der Gruppe erklären, so darf es
+                                    gerne
+                                    mal etwas Persönliches mitbringen. Am Abend ist der Gegenstand wieder nach Hause zu
+                                    nehmen. Die Kindergruppe übernimmt zudem keine Haftung für Schäden oder Verluste an
+                                    solchen Mitbringseln.
+                                </div>
+                                <hr width="94%" class="mt-8 border border-gray-300">
+                            </div>
+                        </div>
+                        <!-- Frage 4 Ende-->
+
+                        <!-- Frage 5 -->
+                        <div class="w-full bg-kuligrau">
+                            <div class="flex flex-col w-11/12 mx-auto ml-8 dc5 bg-kuligrau sm:w-3/4 sm:ml-24 md:ml-32 lg:ml-24">
+                                <div class="flex justify-between w-full mt-20">
+                                    <div class="w-4/5 mt-1 text-xl font-bold">Wir möchten unser Kind für eine definierte
+                                        Zeit an zusätzlichen Tagen in die Kindergruppe bringen</div>
+                                    <div
+                                        class="w-8 h-8 transform rotate-45 rounded-full cursor-pointer mr-7 bg-kulirot gesamtCross5">
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform rotate-45 bg-white rounded-full w-5 cross5">
+                                        </div>
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform -rotate-45 bg-white rounded-full w-5">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex w-11/12 h-0 mt-5 overflow-hidden leading-7 transition-all duration-700 ease-in-out dct5">
+                                    Kontaktieren Sie uns dazu bitte so früh wie möglich. Je nach Belegung unserer Gruppe
+                                    werden wir versuchen, eine
+                                    passende Lösung für Sie zu finden.
+                                    Wir verrechnen Ihnen dazu einfach den Preis entsprechend Ihrer Tarifstufe.
+                                </div>
+                                <hr width="94%" class="mt-8 border border-gray-300">
+                            </div>
+                        </div>
+                        <!-- Frage 5 Ende-->
+
+                        <!-- Frage 6 -->
+                        <div class="w-full bg-kuligrau">
+                            <div class="flex flex-col w-11/12 mx-auto ml-8 bg-kuligrau dc6 sm:w-3/4 sm:ml-24 md:ml-32 lg:ml-24">
+                                <div class="flex justify-between w-full mt-20">
+                                    <div class="w-4/5 mt-1 text-xl font-bold">Welche Versicherungen braucht mein Kind?
+                                    </div>
+                                    <div
+                                        class="w-8 h-8 transform rotate-45 rounded-full cursor-pointer mr-7 bg-kuliorange gesamtCross6">
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform rotate-45 bg-white rounded-full w-5 cross6">
+                                        </div>
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform -rotate-45 bg-white rounded-full w-5">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex w-11/12 h-0 mt-5 overflow-hidden leading-7 transition-all duration-700 ease-in-out dct6">
+                                    Die Kinder benötigen eine Haftpflichtversicherung und
+                                    Kranken-Unfallversicherung.
+                                </div>
+                                <hr width="94%" class="mt-8 border border-gray-300">
+                            </div>
+                        </div>
+
+                    
+                        <div class="opacity-0 lg:bg-kuligrau lg:opacity-100 lg:h-44"></div>
+
+                                      <!-- Besuchen sie uns Persönlich!-->
+                    <div class="absolute opacity-0 lg:opacity-100 lg:relative lg:bottom-0 lg:bg-kuligrau lg:-mt-28 lg:z-10 lg:mx-auto lg:mb-16">
+                        <button id="besuchensieunspersönlich"
+                            class="lg:bg-kuligrün lg:w-96 lg:text-2xl lg:py-3 lg:font-bold lg:p-3 lg:uppercase lg:tracking-wider lg:rounded-full lg:text-white opacity-0 absolute lg:relative lg:opacity-100 lg:ml-8 xl:mr-20"><a
+                                a href="/public/kontakt.html">Noch fragen? </br> Rufen Sie an!</a></button>
+                    </div>
+                        <!-- Frage 6 Ende-->
+
+
+                   
+                    </div>
+                
+
+                    <!-- 2. Spalte rechts mit den anderen 6 Fragen-->
+                    <div class="lg:flex lg:flex-col lg:w-1/2 lg:mx-auto">
+
+                        <!-- Frage 7 -->
+                        <div class="w-full bg-kuligrau">
+                            <div class="flex flex-col w-11/12 mx-auto ml-8 bg-kuligrau dc7 sm:w-3/4 sm:ml-24 md:ml-32 lg:ml-16">
+                                <div class="flex justify-between w-full mt-20">
+                                    <div class="w-4/5 mt-1 text-xl font-bold">Was sind die Kündigungsbedingungen?
+                                    </div>
+                                    <div
+                                        class="w-8 h-8 transform rotate-45 rounded-full cursor-pointer mr-7 bg-kuligelb gesamtCross7">
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform rotate-45 bg-white rounded-full w-5 cross7">
+                                        </div>
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform -rotate-45 bg-white rounded-full w-5">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex w-11/12 h-0 mt-5 overflow-hidden leading-7 transition-all duration-700 ease-in-out dct7">
+                                    Der Betreuungsplatz kann durch die Eltern oder durch die Kindergruppe mit einer
+                                    Frist
+                                    von zwei Monaten auf Ende des Kalendermonats gekündigt werden. Die Kündigung muss
+                                    schriftlich erfolgen.
+                                </div>
+                                <hr width="94%" class="mt-8 border border-gray-300">
+                            </div>
+                        </div>
+                        <!-- Frage 7 Ende-->
+
+                        <!-- Frage 8 -->
+                        <div class="w-full bg-kuligrau">
+                            <div class="flex flex-col w-11/12 mx-auto ml-8 bg-kuligrau dc8 sm:w-3/4 sm:ml-24 md:ml-32 lg:ml-16">
+                                <div class="flex justify-between w-full mt-20">
+                                    <div class="w-4/5 mt-1 text-xl font-bold">Wir möchten unser Kind permanent an
+                                        zusätzlichen Tagen in die Kindergruppe bringen.
+
+                                    </div>
+                                    <div
+                                        class="w-8 h-8 transform rotate-45 rounded-full mr-7 bg-kuligrün cursor-pointer gesamtCross8">
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform rotate-45 bg-white rounded-full w-5 cross8">
+                                        </div>
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform -rotate-45 bg-white rounded-full w-5">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex w-11/12 h-0 mt-5 overflow-hidden leading-7 transition-all duration-700 ease-in-out dct8">
+                                    Kontaktieren Sie uns dazu bitte so früh wie möglich. Je nach Belegung unserer Gruppe
+                                    werden wir versuchen, eine passende Lösung für Sie zu finden. Dabei bemühen wir uns
+                                    sowohl Ihre Wünsche zu berücksichtigen, wie auch diejenigen von allfälligen anderen
+                                    Neuanmeldungen.
+                                </div>
+                                <hr width="94%" class="mt-8 border border-gray-300">
+                            </div>
+                        </div>
+                        <!-- Frage 8 Ende-->
+
+                        <!-- Frage 9 -->
+                        <div class="w-full bg-kuligrau">
+                            <div class="flex flex-col w-11/12 mx-auto ml-8 bg-kuligrau dc9 sm:w-3/4 sm:ml-24 md:ml-32 lg:ml-16">
+                                <div class="flex justify-between w-full mt-20">
+                                    <div class="w-4/5 mt-1 text-xl font-bold">Wir sind abwesend und möchten unser Kind
+                                        für
+                                        eine definierte Zeit aus der Kindergruppe
+                                        heraus nehmen.
+                                    </div>
+                                    <div
+                                        class="w-8 h-8 transform rotate-45 rounded-full mr-7 bg-kuligdunkelgrün cursor-pointer gesamtCross9">
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform rotate-45 bg-white rounded-full w-5 cross9">
+                                        </div>
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform -rotate-45 bg-white rounded-full w-5">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex w-11/12 h-0 mt-5 overflow-hidden leading-7 transition-all duration-700 ease-in-out dct9">
+                                    Kontaktieren Sie uns dazu bitte so früh wie möglich. Für eine allfällige Reduktion
+                                    des
+                                    Preises werden wir Ihre aktuell gebuchten Tage, die Länge der Abwesenheit wie auch
+                                    die
+                                    bisherige Länge der Anwesenheit Ihres Kindes berücksichtigen.
+                                </div>
+                                <hr width="94%" class="mt-8 border border-gray-300">
+                            </div>
+                        </div>
+                        <!-- Frage 9 Ende-->
+
+                        <!-- Frage 10 -->
+                        <div class="w-full bg-kuligrau">
+                            <div class="flex flex-col w-11/12 mx-auto ml-8 bg-kuligrau dc10 sm:w-3/4 sm:ml-24 md:ml-32 lg:ml-16">
+                                <div class="flex justify-between w-full mt-20">
+                                    <div class="w-4/5 mt-1 text-xl font-bold">Wie wird die Professionalität der
+                                        Betreuerinnen gewährleistet?
+                                    </div>
+                                    <div
+                                        class="w-8 h-8 transform rotate-45 rounded-full cursor-pointer mr-7 bg-kulirot gesamtCross10">
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform rotate-45 bg-white rounded-full w-5 cross10">
+                                        </div>
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform -rotate-45 bg-white rounded-full w-5">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex w-11/12 h-0 mt-5 overflow-hidden leading-7 transition-all duration-700 ease-in-out dct10">
+                                    Unsere Betreuerinnen sind Fachkräfte auf dem Gebiet der Kinderbetreuung. Sie
+                                    verfügen
+                                    über eine anerkannte Berufsausbildung. Unsere Praktikantinnen und Lernenden werden
+                                    sorgfältig ausgewählt. Es werden laufend interne und auswärtige Weiterbildungen
+                                    angeboten.
+                                </div>
+                                <hr width="94%" class="mt-8 border border-gray-300">
+                            </div>
+                        </div>
+                        <!-- Frage 10 Ende-->
+
+
+
+                        <!-- Frage 11 -->
+                        <div class="w-full bg-kuligrau">
+                            <div class="flex flex-col w-11/12 mx-auto ml-8 bg-kuligrau dc11 sm:w-3/4 sm:ml-24 md:ml-32 lg:ml-16">
+                                <div class="flex justify-between w-full mt-20">
+                                    <div class="w-4/5 mt-1 text-xl font-bold">Ab welchem Alter darf mein Kind in die
+                                        Kindergruppe?
+                                    </div>
+                                    <div
+                                        class="w-8 h-8 transform rotate-45 rounded-full cursor-pointer mr-7 bg-kuliorange gesamtCross11">
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform rotate-45 bg-white rounded-full w-5 cross11">
+                                        </div>
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform -rotate-45 bg-white rounded-full w-5">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex w-11/12 h-0 mt-5 overflow-hidden leading-7 transition-all duration-700 ease-in-out dct11">
+                                    Wir nehmen Kinder ab 3 Monaten in unsere Betreuung auf. Für die Art der Verpflegung
+                                    (Schoppen, Brei) führen wir gerne ein Gespräch mit Ihnen.
+                                </div>
+                                <hr width="94%" class="mt-8 border border-gray-300">
+                            </div>
+                        </div>
+                        <!-- Frage 11 Ende-->
+
+                        <!-- Frage 12 -->
+                        <div class="w-full bg-kuligrau">
+                            <div class="flex flex-col w-11/12 mx-auto ml-8 bg-kuligrau dc12 sm:w-3/4 sm:ml-24 md:ml-32 lg:ml-16">
+                                <div class="flex justify-between w-full mt-20">
+                                    <div class="w-4/5 mt-1 text-xl font-bold">Bis zu welchem Alter darf mein Kind in den
+                                        Kindergarten?
+                                    </div>
+                                    <div
+                                        class="w-8 h-8 transform rotate-45 rounded-full cursor-pointer mr-7 bg-kuligelb gesamtCross12">
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform rotate-45 bg-white rounded-full w-5 cross12">
+                                        </div>
+                                        <div
+                                            class="absolute p-0.5 mt-3.5 ml-1.5 transform -rotate-45 bg-white rounded-full w-5">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="flex w-11/12 h-0 mt-5 overflow-hidden leading-7 transition-all duration-700 ease-in-out dct12">
+                                    Ihr Kind kann bei uns bis zum zweiten Kindergartenjahr betreut werden. Dabei bezieht
+                                    sich die Betreuung auf die Zeit ausserhalb des Kindergartens. Ein Bringen und Holen
+                                    wird
+                                    durch Sie organisiert.
+                                </div>
+                                <hr width="94%" class="mt-8 mb-12 border border-gray-300">
+                            </div>
+                        </div>
+                        <div class="opacity-0 lg:bg-kuligrau lg:opacity-100 lg:h-24"></div>
+
+                        <!-- Frage 12 Ende-->
+                    </div>
+                </div>
+
+
+                    
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+<!-- Inverted Grauwellen-->
+<div class="relative bottom-0 w-screen h-32 lg:-mt-20"><img src="/Supplies/grauwellen_inverted.png" class="lg:h-40"
+    alt="graue wellen">
+</div>
+
+
+<!-- Besuchen sie uns Persönlich!-->
+<div class="flex justify-center w-full xl:mt-28 xl:ml-28 lg:absolute lg:opacity-0">
+<button id="besuchensieunspersönlich"
+    class="bg-kuligrün mt-16  w-96 text-2xl py-3 font-bold p-3 sm:p-4 md:font-semibold md:p-5 md:w-2/3 uppercase tracking-wider rounded-full sm:text-xl md:text-2xl text-white z-10 xl:mr-56"><a
+        a href="/public/kontakt.html">Noch fragen? </br> Rufen Sie an!</a></button>
+</div>
+
+
+<img src="/Supplies/Logo.png" alt="logo" class="flex mx-auto mt-28 w-36 md:w-48">
+
+<div
+class="relative bottom-0 flex items-center justify-center h-12 min-w-full m-auto mt-32 text-sm text-center text-gray-200 bg-black md:font-bold lg:text-lg lg:font-normal lg:mt-32">
+<a href="#">
+    © 2021 Kindergruppe Kuli - Dornbirn Vorarlberg Design by 3BERG.at -
+    NUTZUNGSVEREINBARUNG</a>
+</div>
+
+
+
+
+    </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+<script language="javascript" type="text/javascript" src="/public/faq.js"></script>
+<script language="javascript" type="text/javascript" src="/public/scroll-out.js"></script>
+
+
+
+</html>

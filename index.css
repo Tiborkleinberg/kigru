@@ -1,0 +1,113 @@
+
+
+#uno[data-scroll="in"] {
+    opacity: 1;
+    transition-delay: 1s;
+    transition: 2s;
+    transform-origin: bottom;
+    margin-top: -7px;
+}
+#due[data-scroll="in"] {
+    opacity: 1;
+    transition-delay: 1s;
+    transition: 2s;
+    transform-origin: bottom;
+    margin-top: -7px;
+}
+#tres[data-scroll="in"] {
+    opacity: 1;
+    transition-delay: 1s;
+    transition: 2s;
+    transform-origin: bottom;
+    margin-top: -7px;
+}
+#quatro[data-scroll="in"] {
+    opacity: 1;
+    transition-delay: 1s;
+    transition: 2s;
+    transform-origin: bottom;
+    margin-top: -7px;
+}
+
+
+#losgehtsbutton {
+    transition: 0.4s;
+
+}
+
+#losgehtsbutton:hover {
+    width: 280px;
+}
+
+#entdeckemehr {
+    transition: 0.4s;
+}
+
+#entdeckemehr:hover {
+    width: 330px;
+}
+
+/*topdown navbar*/
+
+.change .subsubmenu {
+margin-top: 480px;
+transition: all 0.5s ease-in-out;
+}
+
+/*burger to x */
+
+.change #burger1 {
+    transform: rotateZ(-45deg) translate(-10px, 7px);
+}
+.change #burger2 {
+    opacity:0;
+}
+.change #burger3 {
+    transform: rotateZ(45deg) translate(-10px, -7px);
+}
+
+/*active burger in flex-row*/
+#naviquer a:hover {
+    color: #46ce53;
+}
+
+#naviquer a.active {
+    color: #46ce53;
+}
+
+#naviquer .current {
+    color: #46ce53;
+}
+
+
+/*topdownnav - striche - animation*/
+.submenu ul li a,
+.submenu ul li a:after,
+.submenu ul li a:before {
+  transition: all .7s;
+}
+
+.submenu ul li a:hover {
+    color: #555;
+  }
+
+
+.submenu ul li a{
+  position: relative;
+}
+.submenu ul li a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #555;
+  height: 2px;
+
+}
+.submenu ul li a:hover:after {
+  width: 50%;
+}

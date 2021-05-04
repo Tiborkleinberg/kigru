@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
+    <meta name="description"
+        content="Website der Kindergruppe Kuli für Kleinkinder von 3 Monaten bis 4 Jahren in Vorarlberg Dornbirn. Fokus liegt auf Natur und Umwelt.">
+    <meta name="keywords"
+        content="Kind, Kleinkind, Toddler, Kinder, Kleinkinder, Kindergruppe, Kinderbetreuung, Kind betreuen, Kindergruppen, Kleinkindbetreuung, Kinder betreuen, Kind betreuung, Kindergarten, Kindergruppenbetreuung, Kleinkindergruppen, Kleinkind Gruppe betreuen, Dornbirn Kindergruppe, Vorarlberg Kind Betreuung Gruppe">
+    <meta name="author" content="Valentin Hämmerle">
+    <link rel="shortcut icon" type="image/x-icon" href="/Supplies/Favicon.png">
+    <link rel="stylesheet" href="/public/ueberuns.css">
+    <script src=”https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js”></script>
+
+
+
+
+
+
+
+    <title>Kindergruppe Kuli Dornbirn - Über Uns</title>
+
+
+</head>
+
+
+<body class="min-w-full p-0 m-0 overflow-x-hidden text-gray-700 font-mali">
+    <div class="flex flex-col gesamtwrapper">
+
+
+
+        <div
+            class="fixed z-50 w-screen h-full text-2xl font-bold text-center -mt-96 md:opacity-0 lg:opacity-0 xl:opacity-0 submenu">
+            <ul class="flex flex-col w-11/12 mx-auto bg-white rounded-b-xl h-96 leading-12 subsubmenu">
+                <li id="topdownnav" class="inline-block mt-8"><a href="/public/index.html"
+                        class="block px-24 tracking-widest text-kuliorange">HOME</a></li>
+                <li id="topdownnav" class="inline-block mt-6"><a href="/public/ueberuns.html"
+                        class="block px-24 tracking-widest text-kuliorange">ÜBER UNS</a></li>
+                <li id="topdownnav" class="inline-block mt-6"><a href="/public/tagesablauf.html"
+                        class="block px-12 tracking-widest text-kuliorange">TAGESABLAUF</a></li>
+                <li id="topdownnav" class="inline-block mt-6"><a href="/public/preise.html"
+                        class="block px-24 tracking-widest text-kuliorange">PREISE</a></li>
+                <li id="topdownnav" class="inline-block mt-6"><a href="/public/faq.html"
+                        class="block px-24 tracking-widest text-kuliorange">FAQ</a></li>
+                <li id="topdownnav" class="inline-block mt-6"><a href="/public/kontakt.html"
+                        class="block px-24 tracking-widest text-kuliorange">KONTAKT</a></li>
+            </ul>
+        </div>
+
+        <!-- hinauf-pfeil-->
+
+
+        <div id="arrowup" class="fixed bottom-0 right-0 z-40 w-8 mb-16 mr-12">
+            <a href="#headerwrapper">
+                <button onclick="topFunction()" id="myBtn"
+                    title="Pfeil zum Draufklicken um wieder ganz nach oben zu gelangen">
+                    <img src="/Supplies/up-arrow.svg" alt="pfeil um wieder ganz nach oben zu kommen" class="fixed w-8">
+                </button>
+            </a>
+        </div>
+
+
+        <!-- Link zur richtigen Seite! -->
+        <!-- Schatten bei den Profil-->
+        <!-- fadeIn bei Chefin-->
+
+
+
+
+        <!-- HEADER-->
+
+        <div class="z-50 headerwrapper">
+
+            <nav id="navwrapper"
+                class="fixed z-20 flex justify-between h-24 min-w-full bg-white border-b-2 border-black border-solid sm:w-screen">
+                <a href="#home"><img src="/Supplies/Logo_white.png" alt="Logo" class="absolute w-24 mt-2 ml-10"></a>
+
+                <div class="nav">
+                    <div
+                        class="absolute right-0 z-50 mt-6 transition-all duration-100 ease-in-out cursor-pointer burger sm:cursor-pointer mr-72 sm:absolute sm:right-0 sm:mr-52 lg:opacity-0 xl:opacity-0 md:opacity-0">
+                        <div id="burger1ueu"
+                            class="w-12 h-1 mt-2 transition-all duration-200 ease-in-out rounded-full burger1 bg-kuligrün sm:w-14">
+                        </div>
+                        <div id="burger2ueu"
+                            class="burger2 transition-all duration-200 ease-in-out w-12 h-1 bg-kuligrün rounded-full mt-2 sm:w-14">
+                        </div>
+                        <div id="burger3ueu"
+                            class="burger3 transition-all duration-200 ease-in-out w-12 h-1 bg-kuligrün rounded-full mt-2 sm:w-14">
+                        </div>
+                    </div>
+                </div>
+
+                <ul id="naviquer"
+                    class="flex mr-24 text-lg font-extrabold opacity-0 md:flex lg:flex md:mr-8 lg:mr-20 md:text-base lg:text-xl xl:text-xl md:font-bold lg:font-extrabold mt-9 space-evenly sm:opacity-0 md:opacity-100 lg:opacity-100 xl:opacity-100 ">
+                    <a href="/public/index.html" class="ml-10 navibtns xl:w-20 lg:w-20">
+                        <div>
+                            HOME
+                        </div>
+                    </a>
+                    <a href="/public/ueberuns.html"
+                        class="ml-8 xl:w-28 lg:w-28 lg:ml-12 navibtns active:text-kuligrün current">
+                        ÜBER UNS
+                    </a>
+                    <a href="/public/tagesablauf.html" class="ml-8 lg:ml-12 navibtns">
+                        TAGESABLAUF
+                    </a>
+                    <a href="/public/preise.html" class="ml-8 lg:ml-12 navibtns">
+                        PREISE
+                    </a>
+                    <div class="xl:w-28"><a href="/public/faq.html" class="ml-8 lg:ml-16 navibtns">
+                            FAQ
+                        </a></div>
+                    <a href="/public/kontakt.html" class="ml-8 lg:ml-12 navibtns">
+                        KONTAKT
+                    </a>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- HERO -->
+
+        <div class="flex flex-col herowrapper ">
+            <img src="/Supplies/Faultier Kuli.png" alt="Faultier"
+                class="fixed absolute z-40 z-50 opacity-0 mt-14 ml-52 lg:opacity-100 xl:opacity-100">
+            <img src="/Supplies/hintergrund.png" alt="hintergrund grün gezackt" class="w-full h-screen opacity-95">
+            <img src="/Supplies/Tropical.png" alt="bäume" class="absolute bottom-0 right-0 w-1/4 ">
+            <div id="kindergruppekuli"
+                class="absolute flex flex-col justify-center min-w-full mt-56 text-5xl text-center text-white md:flex-shrink-0 md:flex-row md:tracking-wider space-between lg:flex lg:flex-row lg:mt-72 lg:text-6xl">
+                <div class="font-semibold">KINDERGRUPPE</div>
+                <div class="mt-4 font-semibold md:mt-0 lg:mt-0 lg:ml-10">KULI</div>
+            </div></br>
+            <span id="natur"
+                class="absolute bottom-0 min-w-full text-2xl font-normal text-center uppercase text-kuligelb mb-80 md:mb-96 lg:mb-75 xl:text-3xl xl:mb-80">
+                Draußen in der
+                Natur</span>
+            <div class="flex justify-center min-w-full space-between"><button id="ueberunsbutton"
+                    class="absolute bottom-0 w-56 p-3 mb-40 text-2xl font-extrabold text-white uppercase rounded-full lg:mb-40 lg:w-60 lg:py-4 md:mb-48 md:font-bold bg-kuliorange"><a
+                        a href="#unserteam">Über Uns</button></a></div>
+            <div class="flex justify-center min-w-full space-between"><img src="/Supplies/pfeil.png" alt="pfeil"
+                    class="absolute bottom-0 mt-3 mb-24 ml-1 w-7 animate-bounce">
+            </div>
+        </div>
+
+
+        <!-- UNSER TEAM-->
+
+
+        <div class="flex flex-col w-screen h-full">
+            <div class="absolute bottom-0 mb-20" id="unserteam"></div>
+            <div class="relative h-screen -mt-6">
+                <img src="/Supplies/hintergrund_gray.png" alt="hintergrund" class="w-screen h-20">
+                <div class="absolute w-screen h-screen bg-kuligrau"></div>
+                <div
+                    class="absolute flex justify-center min-w-full text-3xl font-bold text-center uppercase sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl xl:tracking-widest xl:font-bold lg:font-semibold lg:mt-12 space-between">
+                    UNSER TEAM
+                </div>
+
+                <!-- Profile-->
+                <div
+                    class="relative top-0 flex flex-col justify-center w-screen text-center mt-60 md:mt-48 Personen bg-kuligrau lg:mt-52">
+                    <!-- Margi, Meli und Franzi-->
+                    <div class="lg:relative lg:flex lg:flex-row lg:ml-60 lg:mt-44">
+
+                        <!-- Margi und Meli-->
+                        <div class="md:flex md:w-screen md:justify-center lg:-mt-8 lg:ml-20">
+                            <!-- Margarethe-->
+                            <div id="margarethe"
+                                class="relative top-0 flex flex-col mt-40 opacity-0 md:-ml-52 margarethe">
+                                <img src="/Supplies/Team/Person1.png" alt="Leiterin Margharete Globisch"
+                                    class="w-48 mx-auto mb-6">
+                                <span class="relative text-lg font-bold">Margarethe Globisch -
+                                    </br>Kindergruppenleiterin
+                                </span>
+                                <p class="w-1/2 mx-auto mt-4">Pädagogische Leitung,
+                                    Kindererzieherin, Ausbildnerin,
+                                    im Team seit März 2013</p>
+                                </span>
+                            </div>
+
+                            <!-- Melina-->
+                            <div
+                                class="relative top-0 flex flex-col opacity-0 mt-72 melina md:mt-40 md:-ml-20 lg:ml-28">
+                                <div class="flex self-center w-48"><img src="/Supplies/Team/Person2.png"
+                                        alt="Kindererzieherin Melina Wiedenmann" class="w-48 mx-auto mb-6"></div>
+                                <span class="relative text-lg font-bold">Melina Wiedemann</span>
+                                <p class="w-1/2 mx-auto mt-4 md:flex md:justify-center">Miterzieherin - </br>
+                                    Kleinkinderzieherin</p>
+                            </div>
+                        </div>
+
+                        <!-- Franzi und Stephi-->
+                        <div class="md:flex md:flex-row md:w-screen md:mt-60 md:justify-center md:ml-44">
+                            <!-- Franziska-->
+                            <div
+                                class="relative top-0 flex flex-col mt-32 opacity-0 franziska md:-ml-96 lg:absolute md:-mb-6 lg:-mr-44">
+                                <img src="/Supplies/Team/Person3.png" alt="Kindererzieherin Franziska Jarius"
+                                    class="w-48 mx-auto mb-6">
+                                <span class="relative text-lg font-bold">Franziska Jarius</span>
+                                <p class="w-1/2 mx-auto mt-4">Miterzieherin - Kleinkinderzieherin</p>
+                            </div>
+
+                            <!-- Stephanie md-->
+                            <div class="absolute opacity-0 lg:opacity-0 lg:absolute md:opactiy-100 md:relative md:top-0 md:flex md:flex-col md:mt-32 md:ml-20 stephanie">
+                                <img src="/Supplies/Team/Person4.png" alt="Kindererzieherin Stephanie Scho"
+                                    class="absolute opacity-0 lg:opacity-0 lg:absolute md:relative md:opacity-100 md:w-48 md:mx-auto md:mb-6">
+                                <span class="absolute opacity-0 lg:opacity-0 lg:absolute md:opacity-100 md:relative md:text-lg md:font-bold">Stephanie Scho</span>
+                                <p class="absolute opacity-0 lg:absolute lg:opacity-0 md:relative md:opacity-100 md:w-1/2 md:mx-auto md:mt-4 md:flex md:justify-center">Miterzieherin - </br> Fa Be
+                                    Kinderbetreuung</p>
+                                </span>
+                            </div>
+                            
+                        </div>
+
+                        
+                    </div>
+                    <div class="absolute opacity-0 lg:relative lg:h-96 lg:w-full"></div>
+                    <!-- Stephi, Illi und Juli -->
+                    <div class="lg:relative lg:flex lg:flex-row lg:ml-32 lg:-mt-32 lg:opacity-100">
+                        
+                        <div>
+                            <!-- scho lg und xl -->
+                            <div class="absolute opacity-0 lg:relative scho lg:mb-10 lg:mr-12 xl:ml-20">
+                                <img src="/Supplies/Team/Person4.png" alt="Kindererzieherin Stephanie Scho"
+                                class="w-48 mx-auto mb-6 opacity-0 lg:opacity-100">
+                                <span class="text-lg font-bold opacity-0 lg:opacity-100 lg:mb-96 ">Stephanie Scho</span>
+                                    <p class="mt-4 opacity-0 lg:opacity-100">Miterzieherin - </br> Fa Be
+                                        Kinderbetreuung</p>
+                                </div>
+
+                                <!-- Stephanie nix und sm --> 
+                                <div class="relative top-0 flex flex-col mt-32 opacity-0 lg:opacity-0 md:absolute md:opacity-0 stephanie">
+                                    <img src="/Supplies/Team/Person4.png" alt="Kindererzieherin Stephanie Scho"
+                                        class="w-48 mx-auto mb-6 md:absolute md:opacity-0">
+                                    <span class="relative text-lg font-bold md:absolute md:opacity-0 lg:opacity-0 lg:mr-96 ">Stephanie Scho</span>
+                                    <p class="w-1/2 mx-auto mt-4 md:absolute md:opacity-0 md:flex md:justify-center lg:opacity-0 lg:absolute lg:z-10 lg:mt-4.5 lg:mr-96">Miterzieherin - </br> Fa Be
+                                        Kinderbetreuung</p>
+                                    </span>
+                                </div>
+                                
+
+
+                                <!-- illi und juli-->
+                                <div class="md:flex md:w-screen md:justify-center lg:absolute lg:bottom-0 md:-ml-4 lg:-mb-16 lg:ml-3 xl:ml-16 ">
+
+                                    <!-- Ilona-->
+                                    <div class="relative top-0 flex flex-col mt-32 opacity-0 ilona md:ml-8">
+                                        <img src="/Supplies/Team/Person5.png" alt="Kindererzieherin Ilona Hebel"
+                                            class="w-48 mx-auto mb-6">
+                                        <span class="relative text-lg font-bold">Ilona Hebel</span>
+                                        <p class="w-1/2 mx-auto mt-4">Lernende - </br> Fa Be Kinderbetreuung</p>
+                                        </span>
+                                    </div>
+
+                                    <!-- Julia-->
+                                    <div class="relative top-0 flex flex-col mt-32 mb-20 opacity-0 julia md:ml-32 lg:ml-32 xl:ml-56">
+                                        <img src="/Supplies/Team/Person6.png" alt="Kindererzieherin Julia Wolter"
+                                            class="w-48 mx-auto mb-6">
+                                        <span class="relative text-lg font-bold">Julia Wolter</span>
+                                        <p class="w-1/2 mx-auto mt-4 md:flex md:justify-center">Lernende - </br>Fa Be
+                                            Kinderbetreuung</p>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                </div>
+
+
+                    </div>
+                    <!-- Inverted Grauwellen-->
+                    <div class="relative bottom-0 w-screen h-32"><img src="/Supplies/grauwellen_inverted.png">
+                    </div>
+
+                    <!-- TRÄGERVEREIN UND MITGLIEDSCHAFT-->
+
+                    <div class="relative flex flex-col w-screen h-20 mitgliedwrapper lg:h-24">
+                        <!-- Inverted Grauwellen-->
+                    </div>
+                    <div class="relative w-full mx-auto text-center h-80 lg:-mb-96">
+                        <!-- Überschrift und Einleitung-->
+                        <span class="text-3xl font-bold uppercase lg:text-4xl ">Trägerverein & Mitgliedschaft</span>
+                        <p class="w-5/6 mx-auto mt-12 lg:w-4/5 lg:mt-20 lg:text-lg">Träger der Kindergruppe ist der
+                            Verein
+                            Kindergruppe Kuli,
+                            gegründet September 1997.
+                            Kindergruppe Kuli steht unter der Aufsicht des Land Vorarlbergs und ist Mitglied beim
+                            Fachverband Kinderbetreuung Vorarlberg. Die Bewilligung zum Betrieb der Kindergruppe
+                            erfolgt über das Amt der Landesregierung, Abteilung 4a - Fachbereich Soziales und
+                            Integration. Der Vorstand setzt sich wie folgt zusammen:
+                        </p>
+                        <!-- Mitglieder Einzeln -->
+
+                        <!-- alle Mitglieder im flex-row-->
+                        <div class="lg:flex lg:flex-row xl:ml-20 ">
+                            <!-- inni und johi-->
+                            <div class="md:flex md:ml-40 md:mt-8 lg:ml-12 lg:mt-4">
+                                <!-- Ines-->
+                                <div class="flex flex-col items-center mt-24 text-center opacity-0 ines ">
+                                    <img class="w-40 md:w-36" src="/Supplies/queen.svg"
+                                        alt="Symbol für die Präsidentin Dr. Ines Knappheide-Lenuweit">
+                                    <span class="mt-8 text-lg font-bold">Dr. Ines Knappheide-Lenuweit</span>
+                                    <span class="mt-6">Präsidentin</span>
+                                </div>
+                                <!-- Johannes-->
+                                <div class="flex flex-col items-center text-center opacity-0 mt-28 johannes md:ml-28 lg:w-40">
+                                    <img class="w-28" src="/Supplies/wallet.svg"
+                                        alt="Symbol für den Finanzverantwortlichen Johannes Stolze">
+                                    <span class="mt-8 text-lg font-bold md:mt-10">Johannes Stolze </span>
+                                    <span class="mt-6">Finanzen</span>
+                                </div>
+                            </div>
+
+                            <!-- G und G-->
+                            <div class="md:flex md:justify-center md:mt-8 lg:ml-32">
+                                <!-- Gudrun-->
+                                <div class="flex flex-col items-center text-center opacity-0 mt-28 gudrun md:mr-4 lg:-mr-8 lg:w-40">
+                                    <img class="w-28" src="/Supplies/ausweis.svg"
+                                        alt="Symbol für das Mitglied Gudrun Birke">
+                                    <span class="mt-8 text-lg font-bold lg:mt-6">Gudrun Birke</span>
+                                    <span class="mt-6 lg:mt-4">Mitglied</span>
+                                </div>
+
+                                <!-- Georg-->
+                                <div class="flex flex-col items-center text-center opacity-0 mt-28 lg:mr-24 georg md:ml-44">
+                                    <img class="w-28" src="/Supplies/ausweis.svg"
+                                        alt="Symbol für das Mitglied Georg Jurisch">
+                                    <span class="mt-8 text-lg font-bold lg:mt-6">Georg Jurisch</span>
+                                    <span class="mt-6 lg:mt-4">Mitglied</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="relative bottom-0 flex items-center justify-center h-12 min-w-full m-auto mt-32 text-sm text-center text-gray-200 bg-black md:font-bold lg:text-lg lg:font-normal lg:mt-32">
+                            <a href="#">
+                                © 2021 Kindergruppe Kuli - Dornbirn Vorarlberg Design by 3BERG.at -
+                                NUTZUNGSVEREINBARUNG</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- Besuchen sie uns Persönlich!-->
+            <div class="flex justify-center w-full mt-36 md:mt-20 lg:relative lg:mt-64 lg:-mb-96 xl:mt-80 xl:ml-28">
+                <button id="besuchensieunspersönlich"
+                    class="bg-kuligrün w-96 text-xl py-4 md:mt-16 font-bold lg:w-85 p-3 sm:p-4 md:font-semibold md:p-5 uppercase tracking-wider rounded-full sm:text-xl md:text-2xl text-white z-10 xl:-mt-16 xl:mr-56"><a
+                        a href="/public/kontakt.html">Besuchen Sie uns </br> persönlich</a></button>
+            </div>
+
+            <!-- Text zu Unser Team-->
+            <div
+                class="absolute bottom-0 flex self-center w-3/4 text-center sm:-mb-80 -mb-96 md:w-5/6 lg:absolute lg:bottom-0 lg:-mb-85 lg:text-xl lg:w-3/4">
+                Unsere BetreuerInnen sind geschulte
+                Fachkräfte
+                auf dem Gebiet der Kinderbetreuung und verfügen über eine
+                anerkannte Berufsausbildung. Unsere PraktikantInnen und Lernenden werden sorgfältig ausgewählt. Durch
+                regelmäßige interne und externe Schulungen führen stellen wir Qualität sicher.
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+
+
+
+
+
+<script language="javascript" type="text/javascript" src="/public/ueberuns.js"></script>
+<script language="javascript" type="text/javascript" src="/public/scroll-out.js"></script>
+<script>
+    ScrollOut({
+        targets: "#margarethe, .melina, .franziska, .ilona, .julia, .stephanie, .scho, .stephanie2, .ines, .johannes, .georg, .gudrun"
+    })
+</script>
+
+
+
+</html>

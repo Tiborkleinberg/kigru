@@ -1,0 +1,216 @@
+/*Überuns Button Effekt Verlängerung*/
+#ueberunsbutton {
+  transition: 0.4s;
+
+}
+#ueberunsbutton:hover {
+  width: 280px;
+}
+
+
+
+/*topdown navbar*/
+
+.change .subsubmenu {
+margin-top: 480px;
+transition: all 0.5s ease-in-out;
+}
+
+/*burger to x */
+
+.change .burger1 {
+    transform: rotateZ(-45deg) translate(-10px, 7px);
+}
+.change .burger2 {
+    opacity:0;
+}
+.change .burger3 {
+    transform: rotateZ(45deg) translate(-10px, -7px);
+}
+
+/*active burger in flex-row*/
+#naviquer a:hover {
+    color: #46ce53;
+}
+
+#naviquer a.active {
+    color: #46ce53;
+}
+
+#naviquer .current {
+    color: #46ce53;
+}
+
+
+/*topdownnav - striche - animation*/
+.submenu ul li a,
+.submenu ul li a:after,
+.submenu ul li a:before {
+  transition: all .7s;
+}
+
+.submenu ul li a:hover {
+    color: #555;
+  }
+
+
+.submenu ul li a{
+  position: relative;
+}
+.submenu ul li a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #555;
+  height: 2px;
+
+}
+.submenu ul li a:hover:after {
+  width: 50%;
+}
+
+/*  Button "Lernen sie uns persönlich kennen" Effekt*/
+#besuchensieunspersönlich {
+    transition: 0.4s;
+
+}
+#besuchensieunspersönlich:hover {
+    width: 450px;
+}
+
+
+
+
+
+
+
+
+
+/*TEAM-reveal-while-scrolling*/
+
+
+.margarethe[data-scroll="in"]{
+  opacity: 1;
+  transition-delay: 1s;
+  transition: 2s;
+  transform-origin: top;
+  margin-top: 130px;
+}
+.melina[data-scroll="in"] {
+  opacity: 1;
+  transition-delay: 1s;
+  transition: 2s;
+  transform-origin: top;
+  margin-top: 250px;
+}
+
+.stephanie[data-scroll="in"] {
+  opacity: 1;
+  transition-delay: 1s;
+  transition: 2s;
+  transform-origin: top;
+  margin-top: 100px;
+}
+
+@media (min-width: 768px)  { 
+  .melina[data-scroll="in"] {
+    opacity: 1;
+    transition-delay: 1s;
+    transition: 2s;
+    transform-origin: top;
+    margin-top: 130px;
+  }
+}
+
+@media (min-width: 768px)  { 
+  .franziska[data-scroll="in"] {
+    opacity: 1;
+    transition-delay: 1s;
+    transition: 2s;
+    transform-origin: top;
+    margin-top: 5px;
+  }
+  .stephanie[data-scroll="in"] {
+    opacity: 1;
+    transition-delay: 1s;
+    transition: 2s;
+    transform-origin: top;
+    margin-top: 100px;
+  }
+}
+
+
+
+.franziska[data-scroll="in"] {
+  opacity: 1;
+  transition-delay: 1s;
+  transition: 2s;
+  transform-origin: top;
+  margin-top: 100px;
+}
+
+
+@media (min-width: 1024px) {
+  .scho[data-scroll="in"] {
+    opacity: 1;
+    transition-delay: 1s;
+    transition: 2s;
+    transform-origin: top;
+    margin-top: 5px;
+  }
+}
+
+.ilona[data-scroll="in"][data-scroll="in"] {
+  opacity: 1;
+  transition-delay: 1s;
+  transition: 2s;
+  transform-origin: top;
+  margin-top: 100px;
+}
+.julia[data-scroll="in"] {
+  opacity: 1;
+  transition-delay: 1s;
+  transition: 2s;
+  transform-origin: bottom;
+  margin-top: 100px;
+}
+
+
+/*TRÄGERVEREIN-reveal-while-scrolling*/
+
+
+
+.ines[data-scroll="in"] {
+  opacity: 1;
+  transition-delay: 1s;
+  transition: 2s;
+  transform-origin: top;
+  margin-top: 80px;
+}
+.johannes[data-scroll="in"] {
+  opacity: 1;
+  transition-delay: 1s;
+  transition: 2s;
+  transform-origin: top;
+  margin-top: 100px;
+}
+
+.gudrun[data-scroll="in"] {
+  opacity: 1;
+  transition-delay: 1s;
+  transition: 2s;
+  transform-origin: top;
+  margin-top: 100px;
+}
+.georg[data-scroll="in"] {
+  opacity: 1;
+  transition-delay: 1s;
+  transition: 2s;
+  transform-origin: top;
+  margin-top: 100px;
+}

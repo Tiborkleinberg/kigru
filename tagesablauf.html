@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
+    <meta name="description"
+        content="Website der Kindergruppe Kuli für Kleinkinder von 3 Monaten bis 4 Jahren in Vorarlberg Dornbirn. Fokus liegt auf Natur und Umwelt.">
+    <meta name="keywords"
+        content="Kind, Kleinkind, Toddler, Kinder, Kleinkinder, Kindergruppe, Kinderbetreuung, Kind betreuen, Kindergruppen, Kleinkindbetreuung, Kinder betreuen, Kind betreuung, Kindergarten, Kindergruppenbetreuung, Kleinkindergruppen, Kleinkind Gruppe betreuen, Dornbirn Kindergruppe, Vorarlberg Kind Betreuung Gruppe">
+    <meta name="author" content="Valentin Hämmerle">
+    <link rel="shortcut icon" type="image/x-icon" href="/Supplies/Favicon.png">
+    <link rel="stylesheet" href="/public/tagesablauf.css">
+    <script src=”https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js”></script>
+
+
+
+
+
+
+
+    <title>Kindergruppe Kuli Dornbirn - Tagesablauf</title>
+
+
+</head>
+
+
+<body class="min-w-full p-0 m-0 overflow-x-hidden text-gray-700 font-mali">
+    <div class="flex flex-col gesamtwrapper">
+
+
+
+        <div
+            class="fixed z-50 w-screen h-full text-2xl font-bold text-center -mt-96 md:opacity-0 lg:opacity-0 xl:opacity-0 submenu">
+            <ul class="flex flex-col w-11/12 mx-auto bg-white rounded-b-xl h-96 leading-12 subsubmenu">
+                <li id="topdownnav" class="inline-block mt-8"><a href="/public/index.html"
+                        class="block px-24 tracking-widest text-kuliorange">HOME</a></li>
+                <li id="topdownnav" class="inline-block mt-6"><a href="/public/ueberuns.html"
+                        class="block px-24 tracking-widest text-kuliorange">ÜBER UNS</a></li>
+                <li id="topdownnav" class="inline-block mt-6"><a href="/public/tagesablauf.html"
+                        class="block px-12 tracking-widest text-kuliorange">TAGESABLAUF</a></li>
+                <li id="topdownnav" class="inline-block mt-6"><a href="/public/preise.html"
+                        class="block px-24 tracking-widest text-kuliorange">PREISE</a></li>
+                <li id="topdownnav" class="inline-block mt-6"><a href="/public/faq.html"
+                        class="block px-24 tracking-widest text-kuliorange">FAQ</a></li>
+                <li id="topdownnav" class="inline-block mt-6"><a href="/public/kontakt.html"
+                        class="block px-24 tracking-widest text-kuliorange">KONTAKT</a></li>
+            </ul>
+        </div>
+
+        <!-- hinauf-pfeil-->
+
+
+        <div id="arrowup" class="fixed bottom-0 right-0 z-40 w-8 mb-16 mr-12">
+            <a href="#headerwrapper">
+                <button onclick="topFunction()" id="myBtn"
+                    title="Pfeil zum Draufklicken um wieder ganz nach oben zu gelangen">
+                    <img src="/Supplies/up-arrow.svg" alt="pfeil um wieder ganz nach oben zu kommen" class="fixed w-8">
+                </button>
+            </a>
+        </div>
+
+
+        <!-- Link zur richtigen Seite! -->
+        <!-- Schatten bei den Profil-->
+        <!-- fadeIn bei Chefin-->
+
+
+
+
+        <!-- HEADER-->
+        <div class="z-50 headerwrapper">
+
+            <nav id="navwrapper"
+                class="fixed z-20 flex justify-between h-24 min-w-full bg-white border-b-2 border-black border-solid sm:w-screen">
+                <a href="#home"><img src="/Supplies/Logo_white.png" alt="Logo" class="absolute w-24 mt-2 ml-10"></a>
+
+                <div class="nav">
+                    <div
+                        class="absolute right-0 z-50 mt-6 transition-all duration-100 ease-in-out cursor-pointer burger sm:cursor-pointer mr-72 sm:absolute sm:right-0 sm:mr-52 lg:opacity-0 xl:opacity-0 md:opacity-0">
+                        <div id="burger1ueu"
+                            class="w-12 h-1 mt-2 transition-all duration-200 ease-in-out rounded-full burger1 bg-kuligrün sm:w-14">
+                        </div>
+                        <div id="burger2ueu"
+                            class="burger2 transition-all duration-200 ease-in-out w-12 h-1 bg-kuligrün rounded-full mt-2 sm:w-14">
+                        </div>
+                        <div id="burger3ueu"
+                            class="burger3 transition-all duration-200 ease-in-out w-12 h-1 bg-kuligrün rounded-full mt-2 sm:w-14">
+                        </div>
+                    </div>
+                </div>
+
+                <ul id="naviquer"
+                    class="flex mr-24 text-lg font-extrabold opacity-0 md:flex lg:flex md:mr-8 lg:mr-20 md:text-base lg:text-xl xl:text-xl md:font-bold lg:font-extrabold mt-9 space-evenly sm:opacity-0 md:opacity-100 lg:opacity-100 xl:opacity-100 ">
+                    <a href="/public/index.html" class="ml-10 navibtns xl:w-20 lg:w-20">
+                        <div>
+                            HOME
+                        </div>
+                    </a>
+                    <a href="/public/ueberuns.html" class="ml-8 xl:w-28 lg:w-28 lg:ml-12 navibtns">
+                        ÜBER UNS
+                    </a>
+                    <a href="/public/tagesablauf.html" class="ml-8 lg:ml-12 navibtns active:text-kuligrün current">
+                        TAGESABLAUF
+                    </a>
+                    <a href="/public/preise.html" class="ml-8 lg:ml-12 navibtns">
+                        PREISE
+                    </a>
+                    <div class="xl:w-28"><a href="/public/faq.html" class="ml-8 lg:ml-16 navibtns">
+                            FAQ
+                        </a></div>
+                    <a href="/public/kontakt.html" class="ml-8 lg:ml-12 navibtns">
+                        KONTAKT
+                    </a>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- HERO -->
+        <div class="flex flex-col herowrapper ">
+            <img src="/Supplies/Faultier Kuli.png" alt="Faultier"
+                class="fixed absolute z-40 z-50 opacity-0 mt-14 ml-52 lg:opacity-100 xl:opacity-100">
+            <img src="/Supplies/hintergrund.png" alt="hintergrund grün gezackt" class="w-full h-screen opacity-95">
+            <img src="/Supplies/Tropical.png" alt="bäume" class="absolute bottom-0 right-0 w-1/4 ">
+            <div id="kindergruppekuli"
+                class="absolute flex flex-col justify-center min-w-full mt-56 text-5xl text-center text-white md:flex-shrink-0 md:flex-row md:tracking-wider space-between lg:flex lg:flex-row lg:mt-72 lg:text-6xl">
+                <div class="font-semibold">KINDERGRUPPE</div>
+                <div class="mt-4 font-semibold md:mt-0 lg:mt-0 lg:ml-10">KULI</div>
+            </div></br>
+            <span id="natur"
+                class="absolute bottom-0 min-w-full text-2xl font-normal text-center uppercase text-kuligelb mb-80 md:mb-96 lg:mb-75 xl:text-3xl xl:mb-80">
+                Draußen in der
+                Natur</span>
+            <div class="flex justify-center min-w-full space-between"><button id="tagesablaufbutton"
+                    class="absolute bottom-0 w-56 p-3 mb-40 text-2xl font-extrabold text-white uppercase rounded-full lg:mb-40 lg:w-60 lg:py-4 md:mb-48 md:font-bold bg-kuliorange"><a
+                        a href="#tagesablauf">Tagesablauf</button></a></div>
+            <div class="flex justify-center min-w-full space-between"><img src="/Supplies/pfeil.png" alt="pfeil"
+                    class="absolute bottom-0 mt-3 mb-24 ml-1 w-7 animate-bounce">
+            </div>
+        </div>
+
+
+        <!-- Strukturen-->
+        <img src="/Supplies/hintergrund_gray.png" alt="hintergrund" class="w-screen h-20 -mt-6">
+        <div class="flex flex-col w-screen h-full bg-kuligrau">
+            <div class="absolute bottom-0 mb-20" id="tagesablauf"></div>
+            <span class="mx-auto mt-4 text-5xl font-bold uppercase lg:mt-16">Tagesstruktur</span>
+
+
+            <!-- Eingewöhnung -->
+            <div class="relative flex flex-col items-center lg:flex-row lg:justify-evenly mt-28">
+                <div class="lg:flex lg:flex-col">
+                    <img src="/Supplies/eingewöhnung.svg" alt="Eingewöhnung"
+                        class="w-20 mx-auto mb-9">
+                    <span class="text-xl font-bold">Eingewöhnung</span>
+                </div>
+                <p class="items-center w-3/4 mt-8 text-center xl:text-lg lg:w-1/2">Mit dem ersten Tag in der Kindergruppe Kuli beginnt für das Kind und die Eltern ein neues Kapitel. In der Eingewöhnungsphase wird das Kind von einer familiären Bezugsperson (Elternteil, Großeltern, etc.) und einer Kindergruppenbetreuerin begleitet. Die Betreuerin unterstützt das Kind darin, sich mit dem neuen, noch ungewohnten Umfeld vertraut zu machen und hilft ihm, seinen Platz in der Gruppe zu finden. Damit sich das Kind wohl und geboren fühlt. Diese Phase dauert je nach Kind und unterschiedlich lange. Wir haben es für diese Situation immer als hilfreich empfunden, mit den Eltern transparent zu kommunizieren und in engem Austausch zu bleiben.</p>
+            </div>
+
+            <!-- Verpflegung -->
+            <div class="relative flex flex-col items-center lg:flex-row lg:justify-evenly mt-28">
+                <div class="lg:flex lg:flex-col">
+                <img src="/Supplies/Jause.svg" alt="Verpflegung"
+                    class="w-20 mx-auto mb-9">
+                <span class="text-xl font-bold">Verpflegung</span>
+                </div>
+                <p class="items-center w-3/4 mt-8 text-center xl:text-lg lg:w-1/2">Die Kindergruppe Kuli achtet stets auf eine gesunde, altersgerechte, saisonle und ausgewogene Ernährung. Zur Vormittagsjause und Nachmittagsjause gibt es als Beilage Obst und Brot. Zu speziellen Anlässen wie Festen, Geburtstagen oder sonstigen Veranstaltungen gibt es Süßigkeiten wie Kuchen oder Schokolade. Wir bieten zum Trinken Wasser und ungesüßten Tee an.</p>
+            </div>
+
+             <!-- Schlafen -->
+             <div class="relative flex flex-col items-center lg:justify-evenly lg:flex-row mt-28">
+                <div class="lg:flex lg:flex-col lg:ml-4">
+                <img src="/Supplies/schlafen.svg" alt="Schlafen"
+                    class="w-20 mx-auto mb-9">
+                <span class="text-xl font-bold">Schlafen</span>
+                </div>
+                <p class="items-center w-3/4 mt-8 text-center xl:text-lg lg:w-1/2">Wir achten so gut als möglich drauf, dass jedes Kind seinen eigenen Schlafrhythmus einhalten kann. So begleiten wir die Kinder in den Ruheraum und singen ihnen Schlaflieder vor. Auch die größeren Kinder sollen in dieser Zeit ruhigeren Aktivitäten nachgehen.</p>
+            </div>
+
+            <!-- Bringen und abholen -->
+            <div class="relative flex flex-col items-center lg:flex-row lg:justify-evenly mt-28">
+                <div class="lg:flex lg:flex-col ">
+                <img src="/Supplies/abholen.svg" alt="bringen und abholen"
+                    class="w-20 mx-auto mb-9">
+                <span class="text-xl font-bold">Bringen und Abholen</span>
+                </div>
+                <p class="items-center w-3/4 mt-8 text-center xl:text-lg lg:mr-10 lg:w-1/2">In folgenden Zeitfenstern können die Kinder gebracht bzw. abgeholt werden:</br></br>6:30 - 9:00 Uhr / 10:45 - 12:00 Uhr / 13:00 - 14:00 Uhr / 16:30 - 19:00 Uhr.</br></br>
+                    Kinder die in der Kindergruppe frühstücken, müssen bis 8:00 Uhr anwesend sein. Bis 8:45 Uhr müssen alle Kinder in der Kindergruppe sein. Kinder, die das Mittgessen in der Kindergruppe einnehmen, kommen von 10:45 - 12:00 Uhr. Am Nachmittag können Kinder zwischen 13:00 - 14:00 Uhr gebracht oder abgeholt werden. Abends können die Kinder ab 16:00 Uhr abgeholt werden.</br></br>
+                    <b>Achtung</b>: Wird das Kind von einer Person abgeholt die uns nicht bekannt ist, verlangen wir von den Eltern, dass sie uns telefonisch oder persönlich informieren!
+                    </p>
+            </div>
+            <!-- Besuchen Sie uns persönlich Button -->
+            <div class="flex justify-center w-full mb-20 mt-28 md:mt-20 lg:mb-40 ">
+                <button id="besuchensieunspersönlich"
+                    class="bg-kuligrün w-96 text-xl py-4 md:mt-16 font-bold lg:w-85 p-3 sm:p-4 md:font-semibold md:p-5 uppercase tracking-wider rounded-full sm:text-xl md:text-2xl text-white"><a
+                        a href="/public/index.html">Besuchen Sie uns </br> persönlich</a></button>
+            </div>
+            
+
+        </div>
+
+
+    </div>
+    <!-- Inverted Grauwellen-->
+    <div class="relative bottom-0 w-screen h-32"><img src="/Supplies/grauwellen_inverted.png"></div>
+
+    <!-- Überschrift-->
+    <span class="flex justify-center w-full text-3xl font-bold uppercase mb-28 lg:mt-20 lg:text-5xl ">Tagesstruktur im Detail</span>
+
+    
+    <!-- Zeitplan -->
+    <img src="/plan.png" alt="Zeitplan" class="mx-auto w-96">
+
+
+    <!-- Einblicke wrapper-->
+    <div class="flex flex-col w-screen h-full mt-32 bg-kuligrau">
+        <img src="/Supplies/hintergrund_gray.png" alt="hintergrund" class="w-screen h-20 -mt-8">
+        <span class="flex justify-center w-full mb-16 text-3xl font-bold uppercase lg:mt-12 lg:mb-28 lg:text-5xl "> Einblicke </span>
+
+        <!-- bildergallerie-->
+        <div class="flex flex-col w-5/6 mx-auto galleriewrapper">
+            <div class="lg:flex lg:flex-row lg:justify-center lg:mx-auto lg:mb-6">
+        <img src="/Supplies/Einblicke/images/bild1.jpg" alt="malen" class="w-full mb-10 rounded-lg shadow-2xl lg:w-36p lg:ml-3">
+        <img src="/Supplies/Einblicke/images/bild2.jpg" alt="spielen am Wasser" class="w-full mb-10 rounded-lg shadow-2xl lg:w-36p lg:ml-3">
+        <img src="/Supplies/Einblicke/images/bild3.jpg" alt="herbstlaub spielen" class="w-full mb-10 rounded-lg shadow-2xl lg:w-36p lg:ml-3">
+            </div>
+            <div class="lg:flex lg:flex-row lg:justify-center lg:mx-auto lg:mb-6">
+        <img src="/Supplies/Einblicke/images/bild4.jpg" alt="kuscheln im leiterwagen" class="w-full mb-10 rounded-lg shadow-2xl lg:w-36p lg:ml-3">
+        <img src="/Supplies/Einblicke/images/bild5.jpg" alt="bunte hände buntes gesicht" class="w-full mb-10 rounded-lg shadow-2xl lg:w-36p lg:ml-3">
+        <img src="/Supplies/Einblicke/images/bild6.jpg" alt="seifenblasen" class="w-full mb-10 rounded-lg shadow-2xl lg:w-36p lg:ml-3">
+            </div>
+            <div class="lg:flex lg:flex-row lg:justify-center lg:mx-auto lg:mb-6">
+        <img src="/Supplies/Einblicke/images/bild7.jpg" alt="legospielen" class="w-full mb-10 rounded-lg shadow-2xl lg:w-36p lg:ml-3 lg:shadow-lg">
+        <img src="/Supplies/Einblicke/images/bild8.jpg" alt="zwei freundinnen" class="w-full mb-10 rounded-lg shadow-2xl lg:w-36p lg:shadow-lg lg:ml-3">
+        <img src="/Supplies/Einblicke/images/bild9.jpg" alt="müde, schlafen, ausruhn" class="w-full mb-10 rounded-lg shadow-lg lg:w-36p lg:ml-3">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="relative bottom-0 w-screen h-32"><img src="/Supplies/grauwellen_inverted.png"></div>
+
+
+
+
+
+
+
+    <!-- Schauen sie rein!-->
+    <div class="flex justify-center w-full md:mt-20 lg:relative lg:-mt-1 xl:mt-8">
+    <button id="schauensierein"
+     class="bg-kuligrün w-96 text-xl py-4 md:mt-16 font-bold lg:w-85 p-3 sm:p-4 md:font-semibold md:p-5 uppercase tracking-wider rounded-full sm:text-xl md:text-2xl text-white"><a
+         a href="/public/kontakt.html">Schauen Sie rein</a></button>
+     </div>                    
+
+     <!--Footer-->
+        <div
+            class="relative bottom-0 flex items-center justify-center h-12 min-w-full m-auto mt-32 text-sm text-center text-gray-200 bg-black md:font-bold lg:text-lg lg:font-normal ">
+            <a href="#">
+                © 2021 Kindergruppe Kuli - Dornbirn Vorarlberg Design by 3BERG.at -
+                NUTZUNGSVEREINBARUNG</a>
+        </div>
+    </div>
+
+
+    </div>
+
+
+    </div>
+
+
+
+   
+
+
+
+    </div>
+
+
+    </div>
+
+
+
+
+</body>
+
+
+
+
+
+<script language="javascript" type="text/javascript" src="/public/tagesablauf.js"></script>
+<script language="javascript" type="text/javascript" src="/public/scroll-out.js"></script>
+<script>
+    ScrollOut({
+        targets: "#margarethe, .melina, .franziska, .ilona, .julia, .stephanie, .scho, .stephanie2, .ines, .johannes, .georg, .gudrun"
+    })
+</script>
+
+
+
+</html>

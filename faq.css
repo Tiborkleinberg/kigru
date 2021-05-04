@@ -1,0 +1,199 @@
+
+
+/*Überuns Button Effekt Verlängerung*/
+#preisebutton {
+    transition: 0.4s;
+  
+  }
+  #preisebutton:hover {
+    width: 280px;
+  }
+  
+  
+  
+  /*topdown navbar*/
+  
+  .change .subsubmenu {
+  margin-top: 480px;
+  transition: all 0.5s ease-in-out;
+  }
+  
+  /*burger to x */
+  
+  .change .burger1 {
+      transform: rotateZ(-45deg) translate(-10px, 7px);
+  }
+  .change .burger2 {
+      opacity:0;
+  }
+  .change .burger3 {
+      transform: rotateZ(45deg) translate(-10px, -7px);
+  }
+  
+  /*active burger in flex-row*/
+  #naviquer a:hover {
+      color: #46ce53;
+  }
+  
+  #naviquer a.active {
+      color: #46ce53;
+  }
+  
+  #naviquer .current {
+      color: #46ce53;
+  }
+  
+  
+  /*topdownnav - striche - animation*/
+  .submenu ul li a,
+  .submenu ul li a:after,
+  .submenu ul li a:before {
+    transition: all .7s;
+  }
+  
+  .submenu ul li a:hover {
+      color: #555;
+    }
+  
+  
+  .submenu ul li a{
+    position: relative;
+  }
+  .submenu ul li a:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #555;
+    height: 2px;
+  
+  }
+  .submenu ul li a:hover:after {
+    width: 50%;
+  }
+  
+  /*  Button "Lernen sie uns persönlich kennen" Effekt*/
+  #besuchensieunspersönlich {
+      transition: 0.4s;
+  
+  }
+  #besuchensieunspersönlich:hover {
+      width: 450px;
+  }
+  
+  
+  /* FAQ DROPDOWNS*/
+
+  .dc1.closed .dct1 {
+    height: 7rem;
+  }
+
+ .cross1.closed {  
+    transition: 0.5s ease-in-out all;
+    opacity: 0%;
+  }
+
+
+  .dc2.closed .dct2 {
+    height: 7rem;
+  }
+
+ .cross2.closed {  
+    transition: 0.5s ease-in-out all;
+    opacity: 0%;
+  }
+
+ .dc3.closed .dct3 {
+    height: 7rem;
+  }
+
+ .cross3.closed {  
+    transition: 0.5s ease-in-out all;
+    opacity: 0%;
+  } 
+
+  .dc4.closed .dct4 {
+    height: 7rem;
+  }
+
+ .cross4.closed {  
+    transition: 0.5s ease-in-out all;
+    opacity: 0%;
+  } 
+
+  .dc5.closed .dct5 {
+    height: 7rem;
+  }
+
+ .cross5.closed {  
+    transition: 0.5s ease-in-out all;
+    opacity: 0%;
+  } 
+
+  .dc6.closed .dct6 {
+    height: 7rem;
+  }
+
+ .cross6.closed {  
+    transition: 0.5s ease-in-out all;
+    opacity: 0%;
+  } 
+
+  .dc7.closed .dct7 {
+    height: 7rem;
+  }
+
+ .cross7.closed {  
+    transition: 0.5s ease-in-out all;
+    opacity: 0%;
+  } 
+
+  .dc8.closed .dct8 {
+    height: 7rem;
+  }
+
+ .cross8.closed {  
+    transition: 0.5s ease-in-out all;
+    opacity: 0%;
+  } 
+
+  .dc9.closed .dct9 {
+    height: 7rem;
+  }
+
+ .cross9.closed {  
+    transition: 0.5s ease-in-out all;
+    opacity: 0%;
+  } 
+
+  .dc10.closed .dct10 {
+    height: 7rem;
+  }
+
+ .cross10.closed {  
+    transition: 0.5s ease-in-out all;
+    opacity: 0%;
+  } 
+
+  .dc11.closed .dct11 {
+    height: 7rem;
+  }
+
+ .cross11.closed {  
+    transition: 0.5s ease-in-out all;
+    opacity: 0%;
+  } 
+
+  .dc12.closed .dct12 {
+    height: 7rem;
+  }
+
+ .cross12.closed {  
+    transition: 0.5s ease-in-out all;
+    opacity: 0%;
+  } 
+
